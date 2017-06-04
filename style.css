@@ -1,0 +1,33 @@
+img {
+  width: 100%;
+  box-shadow: 0px 0px 10px #888888;
+}
+
+.top-margin { margin-top: 3%; }
+
+.bottom-margin { margin-bottom: 3%}
+
+.my-header {
+  margin-top: 0px;
+  font-family: 'Bad Script', cursive;
+  color: MidnightBlue;
+  font-size: 5em;
+  text-shadow: 0px 0px 10px #888888;
+}
+
+.my-title{
+  font-family: 'Carme', sans-serif;
+}
+.card-borderless {
+  border: 0;
+  box-shadow: none;
+}
+
+.grad {
+  background: #d3d3d3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(248,248,248,1),rgba(248,248,248,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(248,248,248,1),rgba(248,248,248,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradientrgba(248,248,248,1),rgba(248,248,248,0)); /*Fx 3.6-15*/
+  background: linear-gradient(rgba(248,248,248,1), rgba(248,248,248,0)); /*Standard*/
+  border: 0;
+}
